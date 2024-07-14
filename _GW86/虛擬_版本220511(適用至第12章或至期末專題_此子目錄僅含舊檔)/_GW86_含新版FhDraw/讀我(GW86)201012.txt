@@ -1,0 +1,16 @@
+請將目錄_GW86複製至硬碟C:之根目錄
+1. 承接前一版本200713，於200819日，
+增訂在_GW86>_FhDraw>_MySzLoc0.h中，
+static int dhIncRst(int, int) { ... }
+2. 200913日
+增訂在_GW86>_FhDraw>_MyCoPatt0.h中，
+static int drClkLine(...) { ... }
+等自訂樣型繪製函式。
+3. 201008日
+在_GW86>_FhDraw>_MyVaGr0.h中，增訂函式
+static void drawSine(...)
+以及進行相關的修訂。
+4. 201012日
+在_GW86>_FhDraw>_MyVaGr0.h中，修正函式名稱
+(1)原函式drawSine修正為drawSinw
+(2)原函式drawPFn修正為drawSine

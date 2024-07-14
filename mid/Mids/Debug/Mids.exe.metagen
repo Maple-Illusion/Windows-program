@@ -1,0 +1,61 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly Mids, Version=0.0.*, Culture=不因語言而異 (不因國別而異): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class GW86.ClrMathMid.MyCmHelp0: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    opcHelp(String[]): PrivateScope, Public, Static, HideBySig
+    opcHelpList(String[]): PrivateScope, Public, Static, HideBySig
+Class GW86.ClrMathMid.MyCmHelp0a: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    opcHelp(String[], String[]): PrivateScope, Public, Static, HideBySig
+Class GW86.ClrMath.MySExppObj0: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    pow(Double, Int32): PrivateScope, Public, HideBySig
+    fac(Int32): PrivateScope, Public, HideBySig
+    exp(Double, Int32): PrivateScope, Public, HideBySig
+    iexp(Double, Int32): PrivateScope, Public, HideBySig
+    cos(Double, Int32): PrivateScope, Public, HideBySig
+    icos(Double, Int32): PrivateScope, Public, HideBySig
+    sin(Double, Int32): PrivateScope, Public, HideBySig
+    isin(Double, Int32): PrivateScope, Public, HideBySig
+    sinc(Double, Int32): PrivateScope, Public, HideBySig
+    isinc(Double, Int32): PrivateScope, Public, HideBySig
+    atan(Double, Int32): PrivateScope, Public, HideBySig
+    iatan(Double, Int32): PrivateScope, Public, HideBySig
+    asinh(Double, Int32): PrivateScope, Public, HideBySig
+Class GW86.ClrMathMid.MyTaskSt0: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    serExpp(Int32, Double, Int32): PrivateScope, Public, Static, HideBySig
+Class GW86.ClrMath.MyArrEval0: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    sum(String[], String[]): PrivateScope, Public, Static, HideBySig
+    innerPro(String[], String[]): PrivateScope, Public, Static, HideBySig
+Class GW86.ClrMathMid.MyTaskArr0: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    arrEval(Int32): PrivateScope, Public, Static, HideBySig
+Class GW86.ClrMathMid.MyCmPostxSe0: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    cmFzMaVx(String[], String[], Int32*, Double*, Int32*): PrivateScope, Public, Static, HideBySig
+Class GW86.ClrMathMid.MyCmPostArr0: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    cmFzMa(String[], String[], Int32*): PrivateScope, Public, Static, HideBySig
+Class GW86.ClrMathMid.MyCmPre0: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    cmSepaPre(String[], Int32*): PrivateScope, Public, Static, HideBySig
+Class clmPrePostxStA.MyCmTaskHnd0: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    cmFzMaVxStA(String[], String[], String[]): PrivateScope, Public, Static, HideBySig

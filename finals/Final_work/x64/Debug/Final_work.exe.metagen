@@ -1,0 +1,128 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly Final_work, Version=0.0.*, Culture=不因語言而異 (不因國別而異): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class GW86.FpDraw.MyRectTab0: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Double x0_margin_rate : Public, Static
+    Double x1_margin_rate : Public, Static
+    Double y0_margin_rate : Public, Static
+    Double y1_margin_rate : Public, Static
+    Double xval_xdelta_rate : Public, Static
+    Double xval_ydelta_rate : Public, Static
+    Double yval_xdelta_rate : Public, Static
+    Double yval_ydelta_rate : Public, Static
+    Double xlabel_xloc_rate : Public, Static
+    Double xlabel_yloc_rate : Public, Static
+    Double ylabel_xloc_rate : Public, Static
+    Double ylabel_yloc_rate : Public, Static
+    System.Drawing.Font cnFont9 : Public, Static
+    System.Drawing.Pen blackPen1 : Public, Static
+    System.Drawing.Pen lightGrayPen1 : Public, Static
+    System.Drawing.Pen lightGrayPen2 : Public, Static
+Class GW86.FpDraw.MyRect0: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :GW86.FpDraw.MyRectTab0
+    Void .ctor(System.Windows.Forms.PictureBox): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Single wBox : Public
+    Single hBox : Public
+    Single x_begin : Public
+    Single x_end : Public
+    Single y_begin : Public
+    Single y_end : Public
+    Single xval_xdelta : Public
+    Single xval_ydelta : Public
+    Single yval_xdelta : Public
+    Single yval_ydelta : Public
+    Single xlabel_xloc : Public
+    Single xlabel_yloc : Public
+    Single ylabel_xloc : Public
+    Single ylabel_yloc : Public
+  Methods:
+    drawRectCoord(Graphics, Single, Single, Single, Single, Single): PrivateScope, Public, HideBySig
+Class GW86.ClrMath.MySExppStat0: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    pow(Double, Int32): PrivateScope, Public, Static, HideBySig
+    fac(Int32): PrivateScope, Public, Static, HideBySig
+    exp(Double, Int32): PrivateScope, Public, Static, HideBySig
+    iexp(Double, Int32): PrivateScope, Public, Static, HideBySig
+    cos(Double, Int32): PrivateScope, Public, Static, HideBySig
+    icos(Double, Int32): PrivateScope, Public, Static, HideBySig
+    sin(Double, Int32): PrivateScope, Public, Static, HideBySig
+    isin(Double, Int32): PrivateScope, Public, Static, HideBySig
+    sinc(Double, Int32): PrivateScope, Public, Static, HideBySig
+    isinc(Double, Int32): PrivateScope, Public, Static, HideBySig
+    atan(Double, Int32): PrivateScope, Public, Static, HideBySig
+    iatan(Double, Int32): PrivateScope, Public, Static, HideBySig
+    asinh(Double, Int32): PrivateScope, Public, HideBySig
+Class GW86.FpDraw.MyVaGr0: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    drawSeg(Graphics, MyRect0, Pen, Single[], Single, Single, Int32): PrivateScope, Public, Static, HideBySig
+    drawSeg(Graphics, MyRect0, Pen, Single, Single, Single, Single, Single, Single, Int32): PrivateScope, Public, Static, HideBySig
+    drawSinSegs(Graphics, MyRect0, Pen, Double, Double, Double, Double, Single[], Int32): PrivateScope, Public, Static, HideBySig
+    drawSine(Graphics, MyRect0, Pen, Double[], Single[], Int32): PrivateScope, Public, Static, HideBySig
+    drawSinw(Graphics, MyRect0, Pen, Double[], Single[], Int32, Double): PrivateScope, Public, Static, HideBySig
+Class F2.myform: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    _drawGeo(Pen, Int32, Double[]): PrivateScope, Public, HideBySig
+Class C4.MyContainer: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    C4.myform theForm : Public
+    C4.myDialog theDialog : Public
+Class GW86.FpDraw.MyCmPost0: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    cmFzMa(String[], String[], Double[]): PrivateScope, Public, Static, HideBySig
+Class C4.myDialog: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(C4.MyContainer): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    C4.MyContainer container : Public
+    Int32 idOpc : Public, Static
+    Double[] opds : Public, Static
+    System.String[] szOpcDraw : Public, Static
+Class C4.myform: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    C4.MyContainer container : Public
+    System.Windows.Forms.MenuStrip Mst : Public
+    System.Windows.Forms.ToolStripMenuItem FileMen : Public
+    System.Windows.Forms.ToolStripMenuItem MathMen : Public
+    System.Windows.Forms.ToolStripMenuItem GraphMen : Public
+    System.Windows.Forms.ToolStripMenuItem DrGeo : Public
+    System.Windows.Forms.ToolStripMenuItem DrPF : Public
+    System.Windows.Forms.ToolStripMenuItem DrDa : Public
+    System.Windows.Forms.ToolStripMenuItem CMD : Public
+    System.Windows.Forms.ToolStripMenuItem Clear : Public
+    System.Drawing.Pen RedPen : Public
+    System.Drawing.Pen RedPen2 : Public
+    System.Drawing.Pen BluePen : Public
+    System.Drawing.Pen GrayPen : Public
+    System.Drawing.Pen BlackPen : Public
+    System.Drawing.Font FontSize : Public
+    System.Windows.Forms.PictureBox Picbox1 : Public
+    GW86.FpDraw.MyRect0 myRect : Public
+    System.Drawing.Graphics G1 : Public
+    System.Drawing.Graphics G2 : Public
+    Single xmin : Public, Static
+    Single xmax : Public, Static
+    Single ymin : Public, Static
+    Single ymax : Public, Static
+    Single nDiv : Public, Static
+  Methods:
+    _drawGeo(Pen, Int32, Double[]): PrivateScope, Public, HideBySig
+    Draw_custom(Pen): PrivateScope, Public, HideBySig
